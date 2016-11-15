@@ -1,0 +1,97 @@
+body {
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 75px;
+}
+
+label {
+    font-family: verdana;
+    font-size: 15px;
+}
+  
+div#sort {
+      margin-left: 75px;
+      margin-bottom: 5px;
+      text-align: left; 
+      padding: 10px;
+      width:auto;
+}
+    
+img#plane_img {
+    padding-right: 10px;
+}
+    
+div#title {
+    
+}
+    
+div#cities {
+      margin-left: 50px;
+      margin-right: 400px;
+      padding: 200px;
+      text-align: left;    
+}
+    
+#block_container {
+    width:1000px;
+    overflow:hidden; 
+    height:auto; 
+    float:left; 
+    text-align:justify; 
+    margin-bottom:15px;
+}
+    
+ 
+#detail {
+    border: solid #6495ED 2px;
+    
+    width: 250px; 
+    height: auto;
+    float:right; 
+    margin-top: -150px;
+    margin-left: 250px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:50px;
+    position:fixed;
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: center;
+}
+
+p#city {
+    font-weight: bold;
+}
+
+p#temp {
+    font-style: italic;
+}
+
+#celsius{
+    padding-right: 10px;
+}
+
+#farenheit {
+    padding-left: 10px;
+}
+
+#high {
+       
+}
+
+#low {
+    padding-left: 12px;
+}
+    
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
