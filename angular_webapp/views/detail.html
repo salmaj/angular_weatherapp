@@ -1,0 +1,12 @@
+<span>
+    <p id="city">{{cityWeather.cityName}}</p>
+  
+    <p>{{cityWeather.text}}</p>
+  
+    <p><span id="high">High: {{high}}</span><span id="low">Low: {{low}}</span></p>
+  
+    <p id="temp">
+        <input type="radio" ng-model="temp" ng-change="toCelsius()" value="celsius" />C<span id="celsius">&#176;</span>
+        <span id="farenheit"><input type="radio" ng-model="temp" ng-change="toFarenheit()" value="farenheit" /></span>F&#176;
+    </p>
+</span>
